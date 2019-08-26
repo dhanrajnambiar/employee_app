@@ -1,0 +1,27 @@
+<html>
+<head>
+  <link rel="stylesheet" href="/static/css/bootstrap_custom.min.css">
+  <script src="/static/js/popper_custom.js"></script>
+  <script src="/static/js/jquery_custom.min.js"></script>
+  <style>
+  .img-thumbnail{
+    width: 150px;
+    height: 150px;
+  }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="row">
+      {% block prof_pic %}
+      {% endblock %}
+    </div>
+    <div class="row">
+      {% block greetings %}
+      {% endblock %}
+    </div>
+  </div>
+  <div class="container">
+  </div>
+</body>
+</html>
